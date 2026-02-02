@@ -89,6 +89,56 @@ All queries are clearly labeled and documented in `chinook_queries.sql`.
 
 ---
 
+---
+
+## 📊 Sample Outputs
+
+Below are example outputs from selected queries to demonstrate the type of insights
+generated from the Chinook database using SQL.
+
+---
+
+### Top Countries by Invoice Count
+
+| BillingCountry | total_invoice |
+|----------------|---------------|
+| USA            | 131           |
+| Canada         | 76            |
+| Brazil         | 61            |
+
+---
+
+### Best Customer by Total Spending
+
+| customerid | firstname | lastname | total |
+|------------|----------|----------|-------|
+| 5          | Rasmus   | Nielsen  | 144.54 |
+
+---
+
+### Top 10 Rock Albums by Track Count
+
+| artist              | album_title                | track_count |
+|---------------------|----------------------------|-------------|
+| Led Zeppelin        | IV                         | 8           |
+| Deep Purple         | Machine Head               | 7           |
+| AC/DC               | Back in Black              | 6           |
+
+---
+
+### Most Popular Genre by Country (Example)
+
+| billingcountry | genre_name | total |
+|----------------|------------|-------|
+| USA            | Rock       | 523.86 |
+| Brazil         | Latin      | 314.45 |
+
+---
+
+These outputs illustrate revenue concentration by geography,
+high-value customers, and genre-level sales performance across regions.
+
+
 ## 🔍 Key Insights
 
 - Revenue is concentrated in a small number of countries and cities  
@@ -123,3 +173,4 @@ and customer retention strategies.
 
 **Ronit Bhatia**  
 Aspiring Data Analyst | SQL | Data Analysis
+
